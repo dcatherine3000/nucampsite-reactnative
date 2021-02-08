@@ -46,7 +46,7 @@ class Favorites extends Component {
                                         {
                                             text: 'OK',
                                             onPress: () => this.props.deleteFavorite(item.id)
-                                        }
+                                        },
                                     ],
                                     { cancelable: false}
                                 )
